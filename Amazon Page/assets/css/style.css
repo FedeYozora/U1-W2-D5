@@ -1,0 +1,137 @@
+/* Your styles here */
+.text-center {
+    text-align: center;
+}
+
+.py-1 {
+    padding: 1rem 0;
+}
+body {
+    background-color: #e9edee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-yellow {
+    color: #eaeded;
+    background-color: #f56600;
+    margin-block: 35px;
+    padding: 0.7rem;
+    width: 96%;
+    position: relative;
+    left: 2%;
+}
+
+.bg-dark {
+    color: #eaeded;
+    background-color: #222f3e;
+    width: 100%;
+}
+
+.bg-dark img {
+    width: 120px;
+    padding-block: 10px;
+    padding-left: 30px;
+}
+
+.bg-white {
+    background-color: white;
+    padding-top: 20px;
+    width: 97%;
+    position: relative;
+    left: 2%;
+    margin-top: 35px;
+    font-weight: bold;
+}
+.bg-white h2 {
+    padding-left: 10px;
+}
+.bg-white span {
+    padding-left: 10px;
+    color: #075b65;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    overflow: hidden;
+    background-color: #364759;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #eaeded;
+  }
+  .bg-img {
+    text-align: center;
+    color: #eaeded;
+    background-image: url(../images/bg-image.png);
+    background-size: 93%;
+    padding-block: 20px;
+    width: 97%;
+    position: relative;
+    left: 2%;
+  }
+
+  .colonna {
+    float: left;
+    width: 23%;
+    padding: 18px;
+    margin-bottom: 10px;
+  }
+  .colonna img {
+    width: 374px;
+    height: 450px;
+    object-fit: cover;
+    margin-inline: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #ccc
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.img-large img {
+    width: 97%;
+    position: relative;
+    left: 2%;
+}
+.img-large h2 {
+    padding-top: 7px;
+    text-align: center;
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 17;
+}
+.img-large span {
+    padding-left: 10px;
+    color: #075b65;
+    font-size: 14px;
+}
+footer h3{
+    background-color: #364759;
+    text-align: center;
+    padding-block: 17px;
+
+}
+footer img {
+    width: 150px;
+    padding-block: 50px;
+}
+footer {
+    background-color: #222f3e;
+}
